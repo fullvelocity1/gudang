@@ -1,0 +1,642 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#"
+     xml:base="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#memiliki_alamat -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#memiliki_alamat">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Siswa"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Alamat"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#memiliki_gaya_belajar -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#memiliki_gaya_belajar">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Siswa"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Gaya_Belajar"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#memiliki_jenis_kelamin -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#memiliki_jenis_kelamin">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Siswa"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Jenis_Kelamin"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#memiliki_minat -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#memiliki_minat">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Siswa"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Tipe_Minat"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#memiliki_nama_lengkap -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#memiliki_nama_lengkap">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Siswa"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Nama_Lengkap"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#memiliki_nomor_hp -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#memiliki_nomor_hp">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Siswa"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Nomor_HP"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#memiliki_surel -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#memiliki_surel">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Siswa"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Surel"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#memiliki_tipe_kecerdasan -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#memiliki_tipe_kecerdasan">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Siswa"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Tipe_Kecerdasan"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#memiliki_tipe_orangtua -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#memiliki_tipe_orangtua">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Siswa"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Tipe_Orangtua"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#nama_lengkap -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#nama_lengkap"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Akademik -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Akademik">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Keahlian_Prestasi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Akreditasi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Akreditasi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Jurusan_Kuliah"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Alamat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Alamat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Objektif"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Bahasa_Indonesia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Bahasa_Indonesia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Nilai_Akademik"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Bahasa_Inggris -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Bahasa_Inggris">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Nilai_Akademik"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Biologi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Biologi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Nilai_Akademik"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Deskripsi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Deskripsi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Pekerjaan"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Ekonomi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Ekonomi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Nilai_Akademik"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Faktor_Interpersonal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Faktor_Interpersonal"/>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Faktor_Lingkungan_Kuliah -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Faktor_Lingkungan_Kuliah"/>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Fisika -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Fisika">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Nilai_Akademik"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Gaji -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Gaji">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Pekerjaan"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Gaya_Belajar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Gaya_Belajar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Subjektif"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Geografi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Geografi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Nilai_Akademik"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Informasi_Akademik -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Informasi_Akademik"/>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Informasi_Personal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Informasi_Personal"/>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Jenis_Kelamin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Jenis_Kelamin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Objektif"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Jurusan_Kuliah -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Jurusan_Kuliah"/>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Keahlian_Prestasi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Keahlian_Prestasi"/>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Kimia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Kimia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Nilai_Akademik"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Kualitas_Lingkungan_Kuliah -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Kualitas_Lingkungan_Kuliah">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Lingkungan_Jurusan"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Lingkungan_Jurusan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Lingkungan_Jurusan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Faktor_Lingkungan_Kuliah"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Mata_Kuliah -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Mata_Kuliah">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Jurusan_Kuliah"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Matematika -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Matematika">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Nilai_Akademik"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Matematika_Peminatan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Matematika_Peminatan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Nilai_Akademik"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Nama_Jurusan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Nama_Jurusan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Jurusan_Kuliah"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Nama_Lengkap -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Nama_Lengkap">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Objektif"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Nama_Universitas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Nama_Universitas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Jurusan_Kuliah"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Nilai_Akademik -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Nilai_Akademik">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Informasi_Akademik"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Nomor_HP -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Nomor_HP">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Objektif"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Non_Akademik -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Non_Akademik">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Keahlian_Prestasi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Objektif -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Objektif">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Informasi_Personal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Olahraga -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Olahraga">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Nilai_Akademik"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Pekerjaan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Pekerjaan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Penjurusan_SMA -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Penjurusan_SMA">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Informasi_Akademik"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Peringkat_Universitas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Peringkat_Universitas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Jurusan_Kuliah"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Prospek_Kerja -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Prospek_Kerja">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Lingkungan_Jurusan"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Sejarah -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Sejarah">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Nilai_Akademik"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Seni_Budaya -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Seni_Budaya">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Nilai_Akademik"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Siswa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Siswa"/>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Sosiologi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Sosiologi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Nilai_Akademik"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Subjektif -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Subjektif">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Informasi_Personal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Surel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Surel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Objektif"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Tipe_Kecerdasan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Tipe_Kecerdasan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Subjektif"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Tipe_Minat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Tipe_Minat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Subjektif"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Tipe_Orangtua -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Tipe_Orangtua">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Faktor_Interpersonal"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Auditori -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Auditori">
+        <rdf:type rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Gaya_Belajar"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Authoritarian -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Authoritarian">
+        <rdf:type rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Tipe_Orangtua"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Authoritative -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Authoritative">
+        <rdf:type rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Tipe_Orangtua"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Daki -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Daki">
+        <rdf:type rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Siswa"/>
+        <memiliki_gaya_belajar rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Auditori"/>
+        <memiliki_jenis_kelamin rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Laki-laki"/>
+        <memiliki_tipe_orangtua rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Authoritative"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Dika -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Dika">
+        <rdf:type rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Siswa"/>
+        <memiliki_alamat rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Kab_Bogor"/>
+        <memiliki_gaya_belajar rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Visual"/>
+        <memiliki_jenis_kelamin rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Laki-laki"/>
+        <memiliki_minat rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Realistis"/>
+        <memiliki_nama_lengkap rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Herdika_Shidqi_Wibowo"/>
+        <memiliki_nomor_hp rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#081282945285"/>
+        <memiliki_surel rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#herdika.s1@gmail.com"/>
+        <memiliki_tipe_kecerdasan rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Spasial"/>
+        <memiliki_tipe_orangtua rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Authoritative"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Diki -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Diki">
+        <rdf:type rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Siswa"/>
+        <memiliki_gaya_belajar rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Visual"/>
+        <memiliki_jenis_kelamin rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Laki-laki"/>
+        <memiliki_tipe_orangtua rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Authoritarian"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Herdika_Shidqi_Wibowo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Herdika_Shidqi_Wibowo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Nama_Lengkap"/>
+        <nama_lengkap rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Herdika Shidqi Wibowo</nama_lengkap>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Kab_Bogor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Kab_Bogor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Alamat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Kinetik -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Kinetik">
+        <rdf:type rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Gaya_Belajar"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Laki-laki -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Laki-laki">
+        <rdf:type rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Jenis_Kelamin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Realistis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Realistis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Tipe_Minat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Spasial -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Spasial">
+        <rdf:type rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Tipe_Kecerdasan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Visual -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Visual">
+        <rdf:type rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Gaya_Belajar"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#081282945285 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#081282945285">
+        <rdf:type rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Nomor_HP"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#herdika.s1@gmail.com -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#herdika.s1@gmail.com">
+        <rdf:type rdf:resource="http://www.semanticweb.org/herdika/ontologies/2023/1/untitled-ontology-6#Surel"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
